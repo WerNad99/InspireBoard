@@ -1,0 +1,17 @@
+*.db
+*.sqlite
+*.sqlite3
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.git
+.github
+.gitignore
+README.md
+.DS_Store
+*.log
+.env
+venv/
+env/
+
