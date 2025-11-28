@@ -10,10 +10,10 @@ by Andrew Oranskyi
 
 ```bash
 # Pull the latest image
-docker pull ghcr.io/YOUR_GITHUB_USERNAME/REPO_NAME:latest
+docker pull ghcr.io/WerNad99/InspireBoard:latest
 
 # Run the container
-docker run -d -p 5000:5000 --name inspireboard ghcr.io/YOUR_GITHUB_USERNAME/REPO_NAME:latest
+docker run -d -p 5000:5000 --name inspireboard ghcr.io/WerNad99/InspireBoard:latest
 
 # Visit http://localhost:5000
 ```
@@ -46,7 +46,7 @@ python app.py
 
 ## Features
 
-- Beautiful, modern UI with gradient design
+- Modern UI with gradient design
 - Add your own inspirational quotes
 - Display random quotes
 - SQLite database for persistence
@@ -83,7 +83,7 @@ The project includes a GitHub Actions workflow that automatically:
 
 Triggered on every push to main branch.
 
-## API Endpoints
+## In-app API Endpoints
 
 - GET / - Main application page
 - GET /health - Health check endpoint
