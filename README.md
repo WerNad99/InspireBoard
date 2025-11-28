@@ -22,8 +22,8 @@ docker run -d -p 5000:5000 --name inspireboard ghcr.io/YOUR_GITHUB_USERNAME/REPO
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
-cd "CI:CD project"
+git clone https://github.com/WerNad99/InspireBoard
+cd "InspireBoard"
 
 # Build Docker image
 docker build -t inspireboard .
