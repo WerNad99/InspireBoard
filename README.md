@@ -1,9 +1,10 @@
-# ✨ InspireBoard
+# InspireBoard
+
 Inspirational Board for best-in-class motivational quotes and citations. Start your day right!
 
-by **Andrew Oranskyi**
+by Andrew Oranskyi
 
-## 🚀 Quick Start with Docker (Recommended)
+## Quick Start with Docker (Recommended)
 
 ### Pull and Run from GitHub Container Registry
 
@@ -31,7 +32,7 @@ docker build -t inspireboard .
 docker run -d -p 5000:5000 --name inspireboard inspireboard
 ```
 
-## 🐍 Run with Python
+## Run with Python
 
 ```bash
 # Install Flask
@@ -43,17 +44,17 @@ python app.py
 # Visit http://localhost:5000
 ```
 
-## 🛠️ Features
+## Features
 
-- ✨ Beautiful, modern UI with gradient design
-- 📝 Add your own inspirational quotes
-- 🎲 Display random quotes
-- 💾 SQLite database for persistence
-- 🏥 Health check endpoint (`/health`)
-- 🐳 Fully containerized with Docker
-- 🚀 CI/CD ready with GitHub Actions
+- Beautiful, modern UI with gradient design
+- Add your own inspirational quotes
+- Display random quotes
+- SQLite database for persistence
+- Health check endpoint
+- Fully containerized with Docker
+- CI/CD ready with GitHub Actions
 
-## 📦 Docker Commands
+## Docker Commands
 
 ```bash
 # View running containers
@@ -72,27 +73,27 @@ docker rm inspireboard
 curl http://localhost:5000/health
 ```
 
-## 🔄 CI/CD Pipeline
+## CI/CD Pipeline
 
 The project includes a GitHub Actions workflow that automatically:
-- ✅ Tests the application
-- ✅ Lints the code
-- 🐳 Builds Docker image
-- 📦 Pushes to GitHub Container Registry
+- Tests the application
+- Lints the code
+- Builds Docker image
+- Pushes to GitHub Container Registry
 
-Triggered on every push to `main` branch.
+Triggered on every push to main branch.
 
-## 🌐 API Endpoints
+## API Endpoints
 
-- `GET /` - Main application page
-- `GET /health` - Health check endpoint
-- `GET /api/quotes` - Get all quotes
-- `GET /api/quotes/random` - Get a random quote
-- `POST /api/quotes` - Add a new quote
-- `DELETE /api/quotes/<id>` - Delete a quote
+- GET / - Main application page
+- GET /health - Health check endpoint
+- GET /api/quotes - Get all quotes
+- GET /api/quotes/random - Get a random quote
+- POST /api/quotes - Add a new quote
+- DELETE /api/quotes/<id> - Delete a quote
 
-## 💡 Tech Stack
+## Tech Stack
 
-⚡ **Powered by:** AWS • Jenkins • Datadog • Flask
+Powered by: AWS, Jenkins, Datadog, Flask
 
-© 2025 Andrew O. All rights reserved.
+Copyright 2025 Andrew O. All rights reserved.
