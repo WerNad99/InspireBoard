@@ -26,7 +26,7 @@ def init_db():
     count = conn.execute('SELECT COUNT(*) FROM quotes').fetchone()[0]
     if count == 0:
         default_quotes = [
-            ("The only way to do great work is to love what you do.", "Steve Jobs"),
+            ("The only way to do great qwork is to love what you do.", "Steve Jobs"),
             ("Believe you can and you're halfway there.", "Theodore Roosevelt"),
             ("Success is not final, failure is not fatal: it is the courage to continue that counts.", "Winston Churchill"),
             ("The future belongs to those who believe in the beauty of their dreams.", "Eleanor Roosevelt"),
